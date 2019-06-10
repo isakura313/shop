@@ -1,0 +1,9 @@
+.catalog {
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+.catalog.preload {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=catalog.css.map */

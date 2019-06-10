@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,MAAM;CAEG;;AAHzB,AAEI,QAFI,AAEH,QAAQ,CAAC;EACN,OAAO,EAAE,GAAG;CAAG",
+    "sources": [
+        "catalog.sass"
+    ],
+    "names": [],
+    "file": "catalog.css"
+}

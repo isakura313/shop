@@ -1,0 +1,154 @@
+$font_name: 'Roboto', sans-serif
+$font_desc: 'Montserrat', sans-serif;
+$text_color: #606060
+$bg_color: #e5e5e5
+$bask_bg: #f68236
+
+//Здесь начинается header.inc
+.main
+    margin: 0 30px
+.main_wrapper
+    height: 100px
+    background: white
+    display: flex
+    justify-content: space-between
+    align-items: center
+    position: fixed
+    right: 30px
+    left: 30px
+    top: 0
+    border-bottom: 1px solid $bg_color
+    
+.nav_wrapper
+    width: 500px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    font-family: $font_name
+    a
+        text-decoration: none
+        color: black
+.basket-account_wrapper
+    width: 250px
+    display: flex
+    justify-content: space-between
+    h3
+        font-family: $font_name
+        display: flex
+        align-items: center
+        font-weight: 300
+        cursor: pointer
+        img
+           
+            height: 30px
+            width: auto
+    //Здесь начинается карточка товара
+.navigation
+    margin: 120px 0 10px 0
+    font-size: 1.3em
+    color: $text_color
+    font-family: $font_desc
+.product-photo
+    background-color: $bg_color
+    margin: 0 auto
+    display: flex
+    justify-content: center
+.product-photo img
+    width: auto
+    height: 500px
+    background-size: contain
+
+.product-name
+    font-size: 2em
+    text-align: center
+    padding: 40px 0 10px 0
+    text-transform: uppercase
+    font-family: $font_name
+    font-weight: 900
+.product_sku
+    text-align: center
+    font-family: $font_desc
+    color: #a3a3a3
+.product_price
+    text-align: center
+    font-family: 'Playfair Display', serif
+    font-style: italic
+    font-size: 2.5em
+    font-weight: 700
+    padding: 20px 0 30px 0
+    color: black
+.product_desc
+    text-align: center
+    font-family: $font_desc
+    color: $text_color
+.product_size
+    text-transform: uppercase
+    font-family: $font_desc
+    text-align: center
+    font-size: 1em
+    color: $text_color
+    padding: 30px 0 15px 0
+.product_size__wrapper
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+.product_item
+    width: 30px
+    height: 30px
+    border: 1px solid $text_color
+    margin: 0 10px 10px 10px
+.size_text
+    text-align: center
+    color: $text_color
+    font-weight: 700
+    padding: 6px 0
+    font-family: $font_desc
+.product_basket
+    width: 250px
+    background-color: $bask_bg
+    color: white
+    text-transform: uppercase
+    font-family: $font_desc
+    padding: 25px 0
+    text-align: center
+    margin: 30px auto 50px auto
+    cursor: pointer
+//Здесь начинается fooret.inc
+.footer
+    height: 200px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 50px 30px
+.collections, .shop, .social
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    font-family: $font_desc
+    h4
+        font-weight: 700
+        text-transform: uppercase
+        margin-bottom: 20px
+    a
+        font-family: $font_desc
+        text-decoration: none
+        padding: 6px 0
+        color: black
+.social p
+    line-height: 2em
+.line
+    width: 1px
+    height: 150px
+    background-color: $bg_color
+.social_wrapper
+    display: flex
+    width: 150px
+    justify-content: space-between
+    img
+        height: 30px
+        margin-top: 15px
+        
+
+
+        
+    
