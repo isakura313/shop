@@ -16,7 +16,17 @@ include($_SERVER['DOCUMENT_ROOT']."/shop/config/function.php");
 
 </head>
 <body>
-    <div class="main">
+    <div class="wrapper">
+    <header>
+    <nav>
+    <a href="/catalog.php?section=man">Мужское</a>
+    <a href="/catalog.php?section=girl">Женское</a>
+    <a href="/catalog.php?section=child">Детское</a>
+    <div class="basket">
+        <a href="/basket.php">  Товаров (<span> 0 </span>)</a>
+    </div>
+    </nav>
+
     
  
 
